@@ -5,7 +5,7 @@ const categoryMap = {};
 async function loadData() {
     const res = await fetch(dataUrl);
     const text = await res.text();
-    const rows = text.split('\n').map(row => row.split(','));
+    const rows = text.split('\n').map(row => row.split(',",'));
 
     const headers = rows.shift();
     const idx = {};
