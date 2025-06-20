@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#logo {
+    height: 80px;
+}
+#controls {
+    margin: 20px 0;
+}
+.item-block {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.item-block img {
+    max-width: 200px;
+    display: block;
+}
+.variant-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.variant-table th, .variant-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
